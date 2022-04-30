@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button1 {background-color: #4CAF50;} /* Green */
+</style>
+</head>
+<body>
+
+<h1>TRAFFIC LIGHT</h1>
+
+
+
+<form action="https://api.particle.io/v1/devices/e00fce6837a63d20e4883471
+/Light?access_token=12518799985300d9f019314ebecb988ddae644ff" method="POST">
+     
+     <input type="radio" name="args" value="RED"> RED
+     <input type="radio" name="args" value="GREEN"> GREEN    
+     <input type="radio" name="args" value="BLUE"> BLUE
+     <br><br>
+     <button class=button1 type="submit">SET</button>
+</form>
+
+</body>
+</html>
